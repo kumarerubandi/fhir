@@ -1,0 +1,89 @@
+16:40:24.682 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+16:40:25.189 [main] INFO  org.eclipse.jetty.server.Server [Server.java:371] - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_192-b12
+16:40:25.190 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1061] - Initializing HAPI FHIR restful server running in R4 mode
+16:40:25.207 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1435] - Added 1 resource provider(s). Total 1
+16:40:25.208 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test$DummyPatientResourceProvider
+16:40:25.209 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.ServerProfileProvider
+16:40:25.212 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.ServerCapabilityStatementProvider
+16:40:25.219 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.PageProvider
+16:40:25.219 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1114] - A FHIR has been lit on this server
+16:40:25.223 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:292] - Started ServerConnector@1125bf4a{HTTP/1.1,[http/1.1]}{0.0.0.0:50366}
+16:40:25.224 [main] INFO  org.eclipse.jetty.server.Server [Server.java:408] - Started @33456ms
+16:40:25.232 [qtp158337180-101] ERROR c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:977] - Failure in interceptor method
+java.lang.NullPointerException: null
+	at ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test$3.processingCompletedNormally(InterceptorThrowingExceptionR4Test.java:113)
+	at ca.uhn.fhir.rest.server.RestfulServer.handleRequest(RestfulServer.java:975)
+	at ca.uhn.fhir.rest.server.RestfulServer.doGet(RestfulServer.java:331)
+	at ca.uhn.fhir.rest.server.RestfulServer.service(RestfulServer.java:1542)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:205)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:503)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+16:40:25.233 [qtp158337180-101] ERROR c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:977] - Failure in interceptor method
+java.lang.NullPointerException: null
+	at ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test$2.processingCompletedNormally(InterceptorThrowingExceptionR4Test.java:106)
+	at ca.uhn.fhir.rest.server.RestfulServer.handleRequest(RestfulServer.java:975)
+	at ca.uhn.fhir.rest.server.RestfulServer.doGet(RestfulServer.java:331)
+	at ca.uhn.fhir.rest.server.RestfulServer.service(RestfulServer.java:1542)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:205)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:503)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+16:40:25.233 [qtp158337180-101] ERROR c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:977] - Failure in interceptor method
+java.lang.NullPointerException: null
+	at ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test$1.processingCompletedNormally(InterceptorThrowingExceptionR4Test.java:99)
+	at ca.uhn.fhir.rest.server.RestfulServer.handleRequest(RestfulServer.java:975)
+	at ca.uhn.fhir.rest.server.RestfulServer.doGet(RestfulServer.java:331)
+	at ca.uhn.fhir.rest.server.RestfulServer.service(RestfulServer.java:1542)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:205)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:503)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+16:40:25.235 [main] INFO  c.u.f.r.s.i.InterceptorThrowingExceptionR4Test [InterceptorThrowingExceptionR4Test.java:129] - Hit: [3, 2, 1]
+16:40:25.237 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:341] - Stopped ServerConnector@1125bf4a{HTTP/1.1,[http/1.1]}{0.0.0.0:50366}
+16:40:25.248 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static org.apache.http.impl.client.CloseableHttpClient ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test.ourClient
+16:40:25.248 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static java.lang.String ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test.ourConditionalCreateId
+16:40:25.249 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.context.FhirContext ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test.ourCtx
+16:40:25.249 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static java.util.List ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test.ourReturn
+16:40:25.249 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static org.eclipse.jetty.server.Server ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test.ourServer
+16:40:25.249 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.rest.server.RestfulServer ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test.ourServlet
+16:40:25.249 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] ca.uhn.fhir.rest.server.interceptor.InterceptorThrowingExceptionR4Test.$jacocoData
+16:40:25.249 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: Deutsch (Deutschland)
+16:40:25.249 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:114] - Tests are using WINDOWS line endings and ISO-8851-1
+16:40:25.249 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT+03:30

@@ -1,0 +1,4 @@
+16:40:11.830 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] ca.uhn.fhir.util.XmlUtilTest.$jacocoData
+16:40:11.831 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: 中文 (台灣)
+16:40:11.831 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:118] - Tests are using UNIX line endings and UTF-8
+16:40:11.831 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT+00:00

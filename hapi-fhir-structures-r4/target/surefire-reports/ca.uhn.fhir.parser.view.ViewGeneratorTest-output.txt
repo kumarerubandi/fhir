@@ -1,0 +1,45 @@
+16:40:24.285 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+16:40:24.309 [main] INFO  c.u.f.parser.view.ViewGeneratorTest [ViewGeneratorTest.java:37] - <Patient xmlns="http://hl7.org/fhir">
+   <extension url="urn:ext">
+      <valueInteger value="100"/>
+   </extension>
+   <extension url="urn:modExt">
+      <valueInteger value="200"/>
+   </extension>
+   <identifier>
+      <system value="urn:sys"/>
+      <value value="id1"/>
+   </identifier>
+   <identifier>
+      <system value="urn:sys"/>
+      <value value="id2"/>
+   </identifier>
+</Patient>
+16:40:24.323 [main] INFO  c.u.f.parser.view.ViewGeneratorTest [ViewGeneratorTest.java:82] - {
+  "resourceType": "Patient",
+  "extension": [
+    {
+      "url": "urn:ext",
+      "valueInteger": 100
+    },
+    {
+      "url": "urn:modExt",
+      "valueInteger": 200
+    }
+  ],
+  "identifier": [
+    {
+      "system": "urn:sys",
+      "value": "id1"
+    },
+    {
+      "system": "urn:sys",
+      "value": "id2"
+    }
+  ]
+}
+16:40:24.327 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.context.FhirContext ca.uhn.fhir.parser.view.ViewGeneratorTest.ourCtx
+16:40:24.327 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] ca.uhn.fhir.parser.view.ViewGeneratorTest.$jacocoData
+16:40:24.366 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: Deutsch (Deutschland)
+16:40:24.366 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:114] - Tests are using WINDOWS line endings and ISO-8851-1
+16:40:24.366 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT+03:30

@@ -1,0 +1,121 @@
+06:10:24.795 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+06:10:24.862 [main] INFO  ca.uhn.fhir.parser.XmlParserR4Test [XmlParserR4Test.java:117] - <Bundle xmlns="http://hl7.org/fhir">
+   <entry>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <name>
+               <given value="GIVEN"/>
+            </name>
+         </Patient>
+      </resource>
+   </entry>
+</Bundle>
+06:10:24.865 [main] INFO  ca.uhn.fhir.parser.XmlParserR4Test [XmlParserR4Test.java:65] - <Bundle xmlns="http://hl7.org/fhir">
+   <id value="BUNDLEID"/>
+   <meta>
+      <profile value="http://FOO"/>
+   </meta>
+   <entry>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="PATIENTID"/>
+            <meta>
+               <profile value="http://BAR"/>
+            </meta>
+            <name>
+               <given value="GIVEN"/>
+            </name>
+         </Patient>
+      </resource>
+   </entry>
+</Bundle>
+06:10:25.219 [main] INFO  ca.uhn.fhir.parser.XmlParserR4Test [XmlParserR4Test.java:196] - <Observation xmlns="http://hl7.org/fhir">
+   <comment value="123&#xa;456"/>
+</Observation>
+06:10:25.220 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@f5b8e58
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@23eebcbb
+06:10:30.570 [main] INFO  ca.uhn.fhir.parser.XmlParserR4Test [XmlParserR4Test.java:226] - <Observation xmlns="http://hl7.org/fhir">
+   <contained>
+      <Observation xmlns="http://hl7.org/fhir">
+         <id value="1"/>
+         <comment value="A"/>
+      </Observation>
+   </contained>
+   <comment value="B"/>
+   <hasMember>
+      <reference value="#1"/>
+   </hasMember>
+   <hasMember>
+      <reference value="#1"/>
+   </hasMember>
+</Observation>
+06:10:30.572 [main] INFO  ca.uhn.fhir.parser.XmlParserR4Test [XmlParserR4Test.java:51] - <Patient xmlns="http://hl7.org/fhir">
+   <name>
+      <family value="A &#xa; B"/>
+   </name>
+</Patient>
+06:10:30.573 [main] INFO  ca.uhn.fhir.parser.XmlParserR4Test [XmlParserR4Test.java:91] - <Bundle xmlns="http://hl7.org/fhir">
+   <entry>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="PATIENTID"/>
+            <meta>
+               <profile value="http://BAR"/>
+            </meta>
+            <name>
+               <given value="GIVEN"/>
+            </name>
+         </Patient>
+      </resource>
+   </entry>
+</Bundle>
+06:10:30.575 [main] INFO  ca.uhn.fhir.parser.XmlParserR4Test [XmlParserR4Test.java:181] - <DiagnosticReport xmlns="http://hl7.org/fhir">
+   <contained>
+      <Specimen xmlns="http://hl7.org/fhir">
+         <id value="1"/>
+         <note>
+            <authorString value="FOO"/>
+         </note>
+      </Specimen>
+   </contained>
+   <specimen>
+      <reference value="#1"/>
+   </specimen>
+</DiagnosticReport>
+06:10:30.596 [main] INFO  ca.uhn.fhir.parser.XmlParserR4Test [XmlParserR4Test.java:160] - {
+  "resourceType": "Patient",
+  "extension": [
+    {
+      "url": "https://purl.org/elab/fhir/network/StructureDefinition/1/BirthWeight",
+      "_valueDecimal": {
+        "extension": [
+          {
+            "url": "http://www.hl7.org/fhir/extension-data-absent-reason.html",
+            "valueCoding": {
+              "system": "http://hl7.org/fhir/ValueSet/birthweight",
+              "code": "Underweight",
+              "userSelected": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://purl.org/elab/fhir/network/StructureDefinition/1/EuroPrevallStudySubjects",
+      "value": "1"
+    }
+  ],
+  "gender": "female"
+}
+06:10:30.598 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.context.FhirContext ca.uhn.fhir.parser.XmlParserR4Test.ourCtx
+06:10:30.598 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] ca.uhn.fhir.parser.XmlParserR4Test.$jacocoData
+06:10:30.598 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: Deutsch (Deutschland)
+06:10:30.598 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:114] - Tests are using WINDOWS line endings and ISO-8851-1
+06:10:30.598 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT+08:00

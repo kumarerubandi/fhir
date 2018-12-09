@@ -1,0 +1,20 @@
+06:10:24.545 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+06:10:24.764 [main] INFO  org.hl7.fhir.r4.model.IdTypeR4Test [IdTypeR4Test.java:20] - 
+<Patient xmlns="http://hl7.org/fhir"><managingOrganization><reference value="http://foo/fhir/Organization/123"/></managingOrganization></Patient>
+06:10:24.774 [main] INFO  org.hl7.fhir.r4.model.IdTypeR4Test [IdTypeR4Test.java:20] - 
+<Patient xmlns="http://hl7.org/fhir"><managingOrganization><reference value="123"/></managingOrganization></Patient>
+06:10:24.778 [main] INFO  org.hl7.fhir.r4.model.IdTypeR4Test [IdTypeR4Test.java:20] - 
+<Patient xmlns="http://hl7.org/fhir"><managingOrganization><reference value="Organization/123"/></managingOrganization></Patient>
+06:10:24.779 [main] INFO  org.hl7.fhir.r4.model.IdTypeR4Test [IdTypeR4Test.java:20] - 
+<Patient xmlns="http://hl7.org/fhir"><managingOrganization><reference value="Organization/123"/></managingOrganization></Patient>
+06:10:24.780 [main] INFO  org.hl7.fhir.r4.model.IdTypeR4Test [IdTypeR4Test.java:20] - 
+<Patient xmlns="http://hl7.org/fhir"><managingOrganization><reference value="http://foo/fhir/Organization/123"/></managingOrganization></Patient>
+06:10:24.781 [main] INFO  org.hl7.fhir.r4.model.IdTypeR4Test [IdTypeR4Test.java:20] - 
+<Patient xmlns="http://hl7.org/fhir"><managingOrganization><reference value="123"/></managingOrganization></Patient>
+06:10:24.782 [main] INFO  org.hl7.fhir.r4.model.IdTypeR4Test [IdTypeR4Test.java:20] - 
+<Patient xmlns="http://hl7.org/fhir"><managingOrganization><reference value="123"/></managingOrganization></Patient>
+06:10:24.783 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.context.FhirContext org.hl7.fhir.r4.model.IdTypeR4Test.ourCtx
+06:10:24.783 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] org.hl7.fhir.r4.model.IdTypeR4Test.$jacocoData
+06:10:24.785 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: 中文 (台灣)
+06:10:24.786 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:114] - Tests are using WINDOWS line endings and ISO-8851-1
+06:10:24.787 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT-05:00

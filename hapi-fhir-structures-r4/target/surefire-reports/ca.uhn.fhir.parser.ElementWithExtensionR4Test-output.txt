@@ -1,0 +1,147 @@
+16:40:21.826 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+16:40:21.854 [main] INFO  c.u.f.p.ElementWithExtensionR4Test [ElementWithExtensionR4Test.java:159] - {
+  "resourceType": "Patient",
+  "id": "1",
+  "extension": [
+    {
+      "url": "/customid",
+      "valueId": "4",
+      "_valueId": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor",
+            "valueString": "UNK"
+          }
+        ]
+      }
+    }
+  ]
+}
+16:40:21.873 [main] INFO  c.u.f.p.ElementWithExtensionR4Test [ElementWithExtensionR4Test.java:130] - {
+  "resourceType": "Patient",
+  "id": "1",
+  "_id": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor",
+        "valueString": "UNK"
+      }
+    ]
+  }
+}
+16:40:21.875 [main] INFO  c.u.f.p.ElementWithExtensionR4Test [ElementWithExtensionR4Test.java:66] - {
+  "resourceType": "Patient",
+  "id": "1",
+  "extension": [
+    {
+      "url": "/petname",
+      "_valueString": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor",
+            "valueString": "UNK"
+          }
+        ]
+      }
+    }
+  ]
+}
+16:40:21.877 [main] INFO  c.u.f.p.ElementWithExtensionR4Test [ElementWithExtensionR4Test.java:115] - <Patient xmlns="http://hl7.org/fhir">
+   <id value="1"/>
+   <extension url="/petname">
+      <valueString>
+         <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
+            <valueString value="UNK"/>
+         </extension>
+      </valueString>
+   </extension>
+</Patient>
+16:40:21.879 [main] INFO  c.u.f.p.ElementWithExtensionR4Test [ElementWithExtensionR4Test.java:95] - <Patient xmlns="http://hl7.org/fhir">
+   <id value="1"/>
+   <extension url="/petname">
+      <valueString value="myPet">
+         <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
+            <valueString value="UNK"/>
+         </extension>
+      </valueString>
+   </extension>
+   <extension url="/myExt">
+      <valueString value="myStringExt">
+         <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
+            <valueString value="UNK"/>
+         </extension>
+      </valueString>
+   </extension>
+   <name>
+      <family value="family">
+         <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
+            <valueString value="UNK"/>
+         </extension>
+      </family>
+   </name>
+</Patient>
+16:40:21.881 [main] INFO  c.u.f.p.ElementWithExtensionR4Test [ElementWithExtensionR4Test.java:144] - <Patient xmlns="http://hl7.org/fhir">
+   <id value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
+         <valueString value="UNK"/>
+      </extension>
+   </id>
+</Patient>
+16:40:21.883 [main] INFO  c.u.f.p.ElementWithExtensionR4Test [ElementWithExtensionR4Test.java:175] - <Patient xmlns="http://hl7.org/fhir">
+   <id value="1"/>
+   <extension url="/customid">
+      <valueId value="4">
+         <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
+            <valueString value="UNK"/>
+         </extension>
+      </valueId>
+   </extension>
+</Patient>
+16:40:21.885 [main] INFO  c.u.f.p.ElementWithExtensionR4Test [ElementWithExtensionR4Test.java:48] - {
+  "resourceType": "Patient",
+  "id": "1",
+  "extension": [
+    {
+      "url": "/myExt",
+      "valueString": "myStringExt",
+      "_valueString": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor",
+            "valueString": "UNK"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/petname",
+      "valueString": "myPet",
+      "_valueString": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor",
+            "valueString": "UNK"
+          }
+        ]
+      }
+    }
+  ],
+  "name": [
+    {
+      "family": "family",
+      "_family": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor",
+            "valueString": "UNK"
+          }
+        ]
+      }
+    }
+  ]
+}
+16:40:21.886 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.context.FhirContext ca.uhn.fhir.parser.ElementWithExtensionR4Test.ourCtx
+16:40:21.886 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] ca.uhn.fhir.parser.ElementWithExtensionR4Test.$jacocoData
+16:40:21.887 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: Deutsch (Deutschland)
+16:40:21.887 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:114] - Tests are using WINDOWS line endings and ISO-8851-1
+16:40:21.887 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT+08:00

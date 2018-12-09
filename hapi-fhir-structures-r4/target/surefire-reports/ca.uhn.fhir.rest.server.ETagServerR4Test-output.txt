@@ -1,0 +1,13 @@
+16:40:25.256 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+16:40:25.763 [main] INFO  org.eclipse.jetty.server.Server [Server.java:371] - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_192-b12
+16:40:25.764 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1061] - Initializing HAPI FHIR restful server running in R4 mode
+16:40:25.783 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1435] - Added 1 resource provider(s). Total 1
+16:40:25.783 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.ETagServerR4Test$PatientProvider
+16:40:25.784 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.ServerProfileProvider
+16:40:25.787 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.ServerCapabilityStatementProvider
+16:40:25.793 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.PageProvider
+16:40:25.795 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1114] - A FHIR has been lit on this server
+16:40:25.796 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:292] - Started ServerConnector@5d0f134a{HTTP/1.1,[http/1.1]}{0.0.0.0:50368}
+16:40:25.796 [main] INFO  org.eclipse.jetty.server.Server [Server.java:408] - Started @34029ms
+16:40:25.833 [qtp1402666850-109] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor [ExceptionHandlingInterceptor.java:141] - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.PreconditionFailedException: Bad version
+16:40:25.838 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:341] - Stopped ServerConnector@5d0f134a{HTTP/1.1,[http/1.1]}{0.0.0.0:50368}

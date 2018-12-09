@@ -1,0 +1,59 @@
+16:40:13.398 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+
+
+	ranslateClientArgumentIntoQueryArgument
+StringParam[value=smith]
+ca.uhn.fhir.context.FhirContext@3d2a8f3b
+16:40:18.135 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+
+
+	ranslateClientArgumentIntoQueryArgument
+StringParam[value=smith]
+ca.uhn.fhir.context.FhirContext@43f2eb5f
+16:40:18.376 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+16:40:18.614 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+
+
+	ranslateClientArgumentIntoQueryArgument
+STRING1
+ca.uhn.fhir.context.FhirContext@43f5aa1d
+
+
+	ranslateClientArgumentIntoQueryArgument
+STRING2
+ca.uhn.fhir.context.FhirContext@43f5aa1d
+
+
+	ranslateClientArgumentIntoQueryArgument
+Sun Oct 04 10:23:55 EDT 1970
+ca.uhn.fhir.context.FhirContext@43f5aa1d
+
+
+	ranslateClientArgumentIntoQueryArgument
+java.util.GregorianCalendar[time=23898235986,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Toronto",offset=-18000000,dstSavings=3600000,useDaylight=true,transitions=231,lastRule=java.util.SimpleTimeZone[id=America/Toronto,offset=-18000000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=1970,MONTH=9,WEEK_OF_YEAR=40,WEEK_OF_MONTH=1,DAY_OF_MONTH=4,DAY_OF_YEAR=277,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=10,HOUR_OF_DAY=10,MINUTE=23,SECOND=55,MILLISECOND=986,ZONE_OFFSET=-18000000,DST_OFFSET=3600000]
+ca.uhn.fhir.context.FhirContext@43f5aa1d
+
+
+	ranslateClientArgumentIntoQueryArgument
+null
+ca.uhn.fhir.context.FhirContext@43f5aa1d
+
+
+	ranslateClientArgumentIntoQueryArgument
+null
+ca.uhn.fhir.context.FhirContext@43f5aa1d
+
+
+	ranslateClientArgumentIntoQueryArgument
+null
+ca.uhn.fhir.context.FhirContext@43f5aa1d
+
+
+	ranslateClientArgumentIntoQueryArgument
+null
+ca.uhn.fhir.context.FhirContext@43f5aa1d
+16:40:18.752 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+16:40:18.870 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] ca.uhn.fhir.rest.client.SearchClientR4Test.$jacocoData
+16:40:18.871 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: Deutsch (Deutschland)
+16:40:18.871 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:114] - Tests are using WINDOWS line endings and ISO-8851-1
+16:40:18.871 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT+08:00

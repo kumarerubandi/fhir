@@ -1,0 +1,1 @@
+06:10:30.604 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]

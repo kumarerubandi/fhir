@@ -1,0 +1,70 @@
+16:40:20.805 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+16:40:21.308 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1387] - Registration of provider [ca.uhn.fhir.rest.server.GraphQLR4ProviderTest$DummyPatientResourceProvider] will be delayed until FHIR server startup
+16:40:21.321 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+16:40:21.394 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1387] - Registration of provider [org.hl7.fhir.r4.hapi.rest.server.GraphQLProvider] will be delayed until FHIR server startup
+16:40:21.395 [main] INFO  org.eclipse.jetty.server.Server [Server.java:371] - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_192-b12
+16:40:21.396 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1061] - Initializing HAPI FHIR restful server running in R4 mode
+16:40:21.428 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1435] - Added 1 resource provider(s). Total 1
+16:40:21.429 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.GraphQLR4ProviderTest$DummyPatientResourceProvider
+16:40:21.430 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1442] - Added 1 plain provider(s). Total 1
+16:40:21.430 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.GraphQLProvider
+16:40:21.431 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.ServerProfileProvider
+16:40:21.434 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.ServerCapabilityStatementProvider
+16:40:21.536 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.PageProvider
+16:40:21.536 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1114] - A FHIR has been lit on this server
+16:40:21.539 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:292] - Started ServerConnector@357c6278{HTTP/1.1,[http/1.1]}{0.0.0.0:50346}
+16:40:21.539 [main] INFO  org.eclipse.jetty.server.Server [Server.java:408] - Started @29772ms
+16:40:21.560 [qtp929728607-64] INFO  c.u.f.r.server.GraphQLR4ProviderTest [GraphQLR4ProviderTest.java:248] - lookup Patient/123
+16:40:21.605 [qtp929728607-64] INFO  o.h.f.r.h.c.DefaultProfileValidationSupport [DefaultProfileValidationSupport.java:209] - Loading structure definitions from classpath: /org/hl7/fhir/r4/model/profile/profiles-resources.xml
+16:40:26.879 [qtp929728607-64] INFO  o.h.f.r.h.c.DefaultProfileValidationSupport [DefaultProfileValidationSupport.java:209] - Loading structure definitions from classpath: /org/hl7/fhir/r4/model/profile/profiles-types.xml
+16:40:27.120 [qtp929728607-64] INFO  o.h.f.r.h.c.DefaultProfileValidationSupport [DefaultProfileValidationSupport.java:209] - Loading structure definitions from classpath: /org/hl7/fhir/r4/model/profile/profiles-others.xml
+16:40:27.939 [qtp929728607-64] INFO  o.h.f.r.h.c.DefaultProfileValidationSupport [DefaultProfileValidationSupport.java:209] - Loading structure definitions from classpath: /org/hl7/fhir/r4/model/extension/extension-definitions.xml
+16:40:29.281 [main] INFO  c.u.f.r.server.GraphQLR4ProviderTest [GraphQLR4ProviderTest.java:60] - {
+  "name":[{
+    "family":"FAMILY",
+    "given":["GIVEN1","GIVEN2"]
+  },{
+    "given":["GivenOnly1","GivenOnly2"]
+  }]
+}
+16:40:29.296 [qtp929728607-59] INFO  c.u.f.r.server.GraphQLR4ProviderTest [GraphQLR4ProviderTest.java:221] - listResources of Patient - [org.hl7.fhir.utilities.graphql.Argument@291c88e7]
+16:40:29.298 [main] INFO  c.u.f.r.server.GraphQLR4ProviderTest [GraphQLR4ProviderTest.java:138] - {
+  "PatientList":[{
+    "name":[{
+      "family":"pet",
+      "given":["GIVEN1","GIVEN2"]
+    },{
+      "given":["GivenOnly1","GivenOnly2"]
+    }]
+  },{
+    "name":[{
+      "given":["GivenOnlyB1","GivenOnlyB2"]
+    }]
+  }]
+}
+16:40:29.300 [qtp929728607-65] INFO  c.u.f.r.server.GraphQLR4ProviderTest [GraphQLR4ProviderTest.java:248] - lookup Patient/123
+16:40:29.301 [main] INFO  c.u.f.r.server.GraphQLR4ProviderTest [GraphQLR4ProviderTest.java:110] - {
+  "Patient":{
+    "name":[{
+      "given":["GIVEN1","GIVEN2"],
+      "family":"FAMILY"
+    },{
+      "given":["GivenOnly1","GivenOnly2"]
+    }]
+  }
+}
+16:40:29.303 [qtp929728607-64] INFO  c.u.f.r.server.GraphQLR4ProviderTest [GraphQLR4ProviderTest.java:248] - lookup Patient/123
+16:40:29.323 [main] INFO  c.u.f.r.server.GraphQLR4ProviderTest [GraphQLR4ProviderTest.java:86] - {
+  "name":[{
+    "given":["GIVEN1","GIVEN2"],
+    "family":"FAMILY"
+  }]
+}
+16:40:29.325 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:341] - Stopped ServerConnector@357c6278{HTTP/1.1,[http/1.1]}{0.0.0.0:50346}
+16:40:29.327 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static org.apache.http.impl.client.CloseableHttpClient ca.uhn.fhir.rest.server.GraphQLR4ProviderTest.ourClient
+16:40:29.327 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.context.FhirContext ca.uhn.fhir.rest.server.GraphQLR4ProviderTest.ourCtx
+16:40:29.327 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static org.eclipse.jetty.server.Server ca.uhn.fhir.rest.server.GraphQLR4ProviderTest.ourServer
+16:40:29.327 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] ca.uhn.fhir.rest.server.GraphQLR4ProviderTest.$jacocoData
+16:40:29.327 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: 中文 (台灣)
+16:40:29.327 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:114] - Tests are using WINDOWS line endings and ISO-8851-1
+16:40:29.327 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT+03:30

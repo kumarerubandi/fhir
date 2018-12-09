@@ -1,0 +1,18 @@
+16:40:18.291 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.AuthenticationException
+16:40:18.292 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException
+16:40:18.292 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.InternalErrorException
+16:40:18.292 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.InvalidRequestException
+16:40:18.293 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.MethodNotAllowedException
+16:40:18.321 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.NotImplementedOperationException
+16:40:18.359 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.NotModifiedException
+16:40:18.359 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.PreconditionFailedException
+16:40:18.359 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.ResourceGoneException
+16:40:18.359 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException
+16:40:18.360 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.ResourceVersionConflictException
+16:40:18.360 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.ResourceVersionNotSpecifiedException
+16:40:18.360 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.UnclassifiedServerFailureException
+16:40:18.360 [main] INFO  c.u.f.r.s.e.ExceptionPropertiesTest [ExceptionPropertiesTest.java:52] - Scanning ca.uhn.fhir.rest.server.exceptions.UnprocessableEntityException
+16:40:18.361 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] ca.uhn.fhir.rest.server.exceptions.ExceptionPropertiesTest.$jacocoData
+16:40:18.361 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: English (Canada)
+16:40:18.361 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:118] - Tests are using UNIX line endings and UTF-8
+16:40:18.362 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT+03:30

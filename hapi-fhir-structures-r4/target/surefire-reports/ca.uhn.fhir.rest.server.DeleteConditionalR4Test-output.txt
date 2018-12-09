@@ -1,0 +1,26 @@
+16:40:29.332 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+16:40:29.837 [main] INFO  org.eclipse.jetty.server.Server [Server.java:371] - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_192-b12
+16:40:29.838 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1061] - Initializing HAPI FHIR restful server running in R4 mode
+16:40:29.875 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1435] - Added 1 resource provider(s). Total 1
+16:40:29.875 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.DeleteConditionalR4Test$PatientProvider
+16:40:29.876 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.ServerProfileProvider
+16:40:29.879 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.ServerCapabilityStatementProvider
+16:40:29.887 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.PageProvider
+16:40:29.888 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1114] - A FHIR has been lit on this server
+16:40:29.889 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:292] - Started ServerConnector@d550c4a{HTTP/1.1,[http/1.1]}{0.0.0.0:50601}
+16:40:29.890 [main] INFO  org.eclipse.jetty.server.Server [Server.java:408] - Started @38123ms
+16:40:29.905 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:78] - Client request: GET http://localhost:50601/metadata HTTP/1.1
+16:40:29.914 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:123] - Client response: HTTP 200 OK in 9ms
+16:40:29.915 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:78] - Client request: DELETE http://localhost:50601/Patient?identifier=SOMESYS%7CSOMEID HTTP/1.1
+16:40:29.920 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:123] - Client response: HTTP 204 No Content (Patient/001/_history/002) in 5ms
+16:40:29.921 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:341] - Stopped ServerConnector@d550c4a{HTTP/1.1,[http/1.1]}{0.0.0.0:50601}
+16:40:29.933 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static org.apache.http.impl.client.CloseableHttpClient ca.uhn.fhir.rest.server.DeleteConditionalR4Test.ourClient
+16:40:29.933 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.context.FhirContext ca.uhn.fhir.rest.server.DeleteConditionalR4Test.ourCtx
+16:40:29.933 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.rest.client.api.IGenericClient ca.uhn.fhir.rest.server.DeleteConditionalR4Test.ourHapiClient
+16:40:29.933 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static java.lang.String ca.uhn.fhir.rest.server.DeleteConditionalR4Test.ourLastConditionalUrl
+16:40:29.933 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static org.hl7.fhir.r4.model.IdType ca.uhn.fhir.rest.server.DeleteConditionalR4Test.ourLastIdParam
+16:40:29.933 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static org.eclipse.jetty.server.Server ca.uhn.fhir.rest.server.DeleteConditionalR4Test.ourServer
+16:40:29.933 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] ca.uhn.fhir.rest.server.DeleteConditionalR4Test.$jacocoData
+16:40:29.934 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: Deutsch (Deutschland)
+16:40:29.934 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:118] - Tests are using UNIX line endings and UTF-8
+16:40:29.934 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT+03:30

@@ -1,0 +1,1484 @@
+16:40:26.604 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:171] - Creating new FHIR context for FHIR version [R4]
+16:40:27.111 [main] INFO  org.eclipse.jetty.server.Server [Server.java:371] - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_192-b12
+16:40:27.192 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1387] - Registration of provider [ca.uhn.fhir.rest.server.provider.HashMapResourceProvider] will be delayed until FHIR server startup
+16:40:27.192 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1387] - Registration of provider [ca.uhn.fhir.rest.server.provider.HashMapResourceProvider] will be delayed until FHIR server startup
+16:40:27.192 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1061] - Initializing HAPI FHIR restful server running in R4 mode
+16:40:27.192 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1435] - Added 2 resource provider(s). Total 2
+16:40:27.193 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.provider.HashMapResourceProvider
+16:40:27.195 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.provider.HashMapResourceProvider
+16:40:27.196 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.ServerProfileProvider
+16:40:27.202 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class org.hl7.fhir.r4.hapi.rest.server.ServerCapabilityStatementProvider
+16:40:27.208 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:365] - Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.PageProvider
+16:40:27.209 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1114] - A FHIR has been lit on this server
+16:40:27.209 [main] INFO  o.e.j.server.handler.ContextHandler [ContextHandler.java:850] - Started o.e.j.s.ServletContextHandler@528ddf21{/,null,AVAILABLE}
+16:40:27.212 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:292] - Started ServerConnector@7a46c85c{HTTP/1.1,[http/1.1]}{0.0.0.0:50373}
+16:40:27.213 [main] INFO  org.eclipse.jetty.server.Server [Server.java:408] - Started @35443ms
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@997bd86
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@b8ded9b
+16:40:27.233 [qtp1200877716-86] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/1/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@115a512c
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4e249f27
+16:40:27.241 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/2/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@164d824c
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@330a46c1
+16:40:27.245 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/3/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@217fb7c2
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5d7dd44d
+16:40:27.248 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/4/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5b2af5cb
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3e22ba69
+16:40:27.252 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/5/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@257e021
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@38308f2c
+16:40:27.256 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/6/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@33858699
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@bc09f4b
+16:40:27.261 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/7/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3083f64
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@79592ccb
+16:40:27.264 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/8/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@12380913
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@62920e67
+16:40:27.270 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/9/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@236b1e51
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4dc52d3
+16:40:27.274 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/10/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@50e66dde
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@279d4615
+16:40:27.277 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/11/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7ece26f7
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5a4b78f4
+16:40:27.281 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/12/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5564f32b
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@28ef2658
+16:40:27.285 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/13/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@8d73ffe
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5c0e3c04
+16:40:27.289 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/14/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4905dcc1
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@50d1c256
+16:40:27.297 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/15/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@550635c6
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5eab28b4
+16:40:27.301 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/16/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@69dd8850
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4a380a50
+16:40:27.305 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/17/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7e2461b1
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@54ed358b
+16:40:27.308 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/18/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@fc465c6
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7c08c4e8
+16:40:27.312 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/19/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@400060b8
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3901ce89
+16:40:27.315 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/20/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1fe1252c
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@17ac1104
+16:40:27.319 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/21/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@114260a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6fba4967
+16:40:27.322 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/22/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5ce6fcd4
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2ecf16dc
+16:40:27.326 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/23/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@ef7fd51
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2feb8937
+16:40:27.329 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/24/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@fdb1e5c
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@52e7bbbb
+16:40:27.332 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/25/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@41929183
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4262d84f
+16:40:27.336 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/26/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@c444c9a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3a2cd854
+16:40:27.339 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/27/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@70fd618a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@76a5a563
+16:40:27.345 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/28/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@604e4d40
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2c33cf89
+16:40:27.349 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/29/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@471a6f59
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@65a4edcc
+16:40:27.353 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/30/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5218b3ed
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@224dc1ec
+16:40:27.357 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/31/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5e0f4525
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6b4fdf72
+16:40:27.360 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/32/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@63ffe4a8
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1a69706a
+16:40:27.364 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/33/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@110fbd78
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@684e072c
+16:40:27.368 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/34/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1ed982d1
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5b60ec80
+16:40:27.371 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/35/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@327665c3
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3e2f8858
+16:40:27.375 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/36/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@78584503
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6900caba
+16:40:27.379 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/37/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3b28ada2
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2f7d7064
+16:40:27.383 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/38/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7090eaec
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@180274b1
+16:40:27.388 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/39/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6344319d
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4e96f3a3
+16:40:27.391 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/40/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1332f689
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@a38cb5f
+16:40:27.395 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/41/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@116ff525
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6d882fd0
+16:40:27.399 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/42/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@79be519a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@36d1ecdc
+16:40:27.402 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/43/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@b9b272d
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5adb5566
+16:40:27.405 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/44/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@2c6be4b2
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1c26eb6f
+16:40:27.409 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/45/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@2500cc24
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6907a507
+16:40:27.414 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/46/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@51cc99c5
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@f551e63
+16:40:27.417 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/47/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6446c0d7
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4c9c0488
+16:40:27.421 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/48/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@50c98654
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@9e93ad4
+16:40:27.424 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/49/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@164dd496
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@37666930
+16:40:27.428 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/50/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4fedf337
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4054f82e
+16:40:27.432 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/51/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@a2a65be
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1c1b5ba3
+16:40:27.436 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/52/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@802c3e1
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2cda0066
+16:40:27.439 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/53/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@76b708b6
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@300f8f7a
+16:40:27.443 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/54/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4d383f34
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@307bff53
+16:40:27.446 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/55/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@65711ffb
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@a9c1e51
+16:40:27.450 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/56/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@778bea9
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@43d85b0d
+16:40:27.454 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/57/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@77394bf
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4ca82bff
+16:40:27.458 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/58/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@65c2769e
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@30dd895
+16:40:27.461 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/59/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@ca80829
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7e461408
+16:40:27.466 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/60/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7c985d65
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2e91d3c7
+16:40:27.470 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/61/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@2b889ad4
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5ba649a8
+16:40:27.473 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/62/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4fa17171
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2d561ac7
+16:40:27.476 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/63/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@19fef875
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6894a9f1
+16:40:27.479 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/64/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@78e10901
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@28a972dd
+16:40:27.482 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/65/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7c93a6b4
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6ed1925
+16:40:27.486 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/66/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6338b2f0
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1cdb7ebe
+16:40:27.491 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/67/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4b15fda6
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@58a5a78f
+16:40:27.494 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/68/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3063a34b
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7a8cc4ca
+16:40:27.497 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/69/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7678a404
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@612dd9e
+16:40:27.503 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/70/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1cbc9793
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6ef5c7f7
+16:40:27.506 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/71/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6b422b5c
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@22ca6005
+16:40:27.509 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/72/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5e8747dd
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@27e90097
+16:40:27.512 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/73/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@205b4ba3
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@291c4428
+16:40:27.515 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/74/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@51e104c0
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@27fa0228
+16:40:27.519 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/75/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4dc3294e
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1857333f
+16:40:27.524 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/76/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@15c8ce01
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2b93ff97
+16:40:27.528 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/77/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@157a00ad
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@43c6af8f
+16:40:27.531 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/78/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6b618ecb
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7d015134
+16:40:27.534 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/79/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@76e348b0
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@523de852
+16:40:27.538 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/80/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@d956bfd
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2a880ebe
+16:40:27.542 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/81/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@142d02bb
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@758e3f06
+16:40:27.546 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/82/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@40ee3f8b
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@673f1997
+16:40:27.549 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/83/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6fd9ecf6
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@54c04665
+16:40:27.555 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/84/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@60afecef
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@425ee17d
+16:40:27.558 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/85/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@76054d17
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4d67a5d1
+16:40:27.561 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/86/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@60cdedb7
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3c370db6
+16:40:27.565 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/87/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@30038924
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@14314db6
+16:40:27.569 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/88/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@37619e5f
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3432573c
+16:40:27.572 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/89/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@372a0972
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5b0543b4
+16:40:27.576 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/90/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@c4fbe1e
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@23a5b20b
+16:40:27.579 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/91/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6c0faff7
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2c14a9aa
+16:40:27.584 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/92/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@8c00786
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@16286b4e
+16:40:27.587 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/93/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@14d28db8
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@55c0ed88
+16:40:27.591 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/94/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@286b1e71
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1e2e8c42
+16:40:27.594 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/95/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4dd32379
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@71d4d6ed
+16:40:27.597 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/96/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@54c57617
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@58fc4bb8
+16:40:27.601 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/97/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6588ac6a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1a9789d0
+16:40:27.608 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/98/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4c31cdc8
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7158277f
+16:40:27.611 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/99/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5381c2b3
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7feda46d
+16:40:27.615 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/100/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4eee6650
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@aab77db
+16:40:27.688 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/1/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4685ea10
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@40118c78
+16:40:27.691 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/2/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6f12b285
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3fe3a83
+16:40:27.695 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/3/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3b7e5726
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@a90aeb2
+16:40:27.698 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/4/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6dc9c226
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@f4284e1
+16:40:27.702 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/5/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@322fa0f8
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2f39d6
+16:40:27.705 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/6/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@62458146
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@14c938e1
+16:40:27.708 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/7/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@50662d12
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2f3db6eb
+16:40:27.712 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/8/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@240476c0
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2d87b65f
+16:40:27.715 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/9/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@bc35464
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5f4df82
+16:40:27.747 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/10/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1d40c9e9
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6af7e909
+16:40:27.759 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/11/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6cd733f4
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5f91dbcd
+16:40:27.766 [qtp1200877716-90] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/12/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@48418a52
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2f157e8b
+16:40:27.770 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/13/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@9c6f2e1
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@8125c3e
+16:40:27.773 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/14/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@f22a64
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4d97e2aa
+16:40:27.777 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/15/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1a842f93
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7493f31f
+16:40:27.780 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/16/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6f456d12
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@cf453d4
+16:40:27.783 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/17/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@eea3456
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7292d10a
+16:40:27.786 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/18/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@dcdf276
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@46548d69
+16:40:27.790 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/19/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@12c8b717
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4f8527e3
+16:40:27.793 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/20/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6d9d2740
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@ceebc3b
+16:40:27.796 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/21/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@135ba46b
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@446bec3f
+16:40:27.799 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/22/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3da7610a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@c5a2bc0
+16:40:27.803 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/23/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@d270c97
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@59fd7fbf
+16:40:27.806 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/24/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5acf11c6
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@24df13fa
+16:40:27.810 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/25/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@594a87e9
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@f2fc89b
+16:40:27.813 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/26/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@65666f7
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@23fac06d
+16:40:27.816 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/27/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@9b1089b
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2e59fb7c
+16:40:27.819 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/28/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@2b2950d6
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@540c5ba5
+16:40:27.822 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/29/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@40ab25f
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@26b9c5b9
+16:40:27.825 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/30/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3e076392
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4d348d85
+16:40:27.829 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/31/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6f85e06c
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7465dd3
+16:40:27.832 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/32/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5283ed0a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5545d983
+16:40:27.836 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/33/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@2b8d981
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7012cbe3
+16:40:27.845 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/34/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@390eaa54
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4c517be4
+16:40:27.862 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/35/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@65a8ce21
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@71eebfe6
+16:40:27.866 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/36/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@669ecfe6
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@57d6eafa
+16:40:27.871 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/37/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1bf20de0
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7ec56e12
+16:40:27.875 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/38/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6d8f43e2
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3f19edbc
+16:40:27.880 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/39/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4f511cdc
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6f2112c9
+16:40:27.882 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/40/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@2cf866f3
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@31b83dd9
+16:40:27.886 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/41/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@647cf619
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4890b169
+16:40:27.889 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/42/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1379613e
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@38a7da3c
+16:40:27.893 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/43/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4627d228
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@b445331
+16:40:27.896 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/44/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7ee0ff76
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@25d22dfa
+16:40:27.901 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/45/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7bf877e2
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@299a0b3d
+16:40:27.905 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/46/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@61e9f796
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7795c334
+16:40:27.908 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/47/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@2bdb99c6
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4a5b2af
+16:40:27.911 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/48/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@b756087
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@141287d3
+16:40:27.914 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/49/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1d7d77b3
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3483b696
+16:40:27.918 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/50/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@712fe8ed
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3756a606
+16:40:27.921 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/51/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@589772e8
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4badcab1
+16:40:27.924 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/52/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6deb7d9b
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4c946c03
+16:40:27.927 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/53/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1e92f159
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@434f61ed
+16:40:27.930 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/54/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@adf67a9
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4e437772
+16:40:27.935 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/55/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@350cbb13
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@39cbc113
+16:40:27.938 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/56/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@2a27b1a9
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3ee53c2a
+16:40:27.942 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/57/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6c3ac83e
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@34731e5e
+16:40:27.946 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/58/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@55e6caa2
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4bd8d4a5
+16:40:27.950 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/59/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3f61314a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5c28d895
+16:40:27.953 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/60/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1031134a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@65f80c69
+16:40:27.957 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/61/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@29205ba5
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@4734df32
+16:40:27.961 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/62/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@f7fa199
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@45ccb50
+16:40:27.966 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/63/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@271d48f0
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6e299dba
+16:40:27.979 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/64/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1aae03c8
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@11c4e90
+16:40:27.988 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/65/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4aca07cf
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@583ff5fd
+16:40:27.991 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/66/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1994c432
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@50b5ca57
+16:40:27.994 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/67/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3426724
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1ed2623f
+16:40:28.011 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/68/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5dfb0ad3
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@518f8a80
+16:40:28.014 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/69/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@27d378d0
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7157b580
+16:40:28.023 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/70/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@22f78d0b
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@20de1cae
+16:40:28.027 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/71/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@1da5c207
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2d7c0a3e
+16:40:28.030 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/72/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@565a8dc4
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2ee181de
+16:40:28.040 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/73/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3ad93c5a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5d17fbde
+16:40:28.043 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/74/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@360c8f5d
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1189d7fd
+16:40:28.046 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/75/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5bc5531b
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@33f78c38
+16:40:28.049 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/76/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4c39e0e1
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@282d3842
+16:40:28.053 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/77/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6568c13f
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@12a4a7c0
+16:40:28.056 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/78/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@37a0138a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@76c6e346
+16:40:28.061 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/79/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@690bff4a
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@5399414
+16:40:28.065 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/80/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@4bb11fc
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@587d7d02
+16:40:28.068 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/81/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@2fcf895d
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@294c93d5
+16:40:28.071 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/82/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@d86c337
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@a06f16e
+16:40:28.074 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/83/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@10593cff
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7f0045ae
+16:40:28.077 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/84/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@36576b06
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3aaa67b2
+16:40:28.085 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/85/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7d5a9b8b
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7b72e4b0
+16:40:28.088 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/86/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@561aad89
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@41179de7
+16:40:28.104 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/87/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@63ad7c57
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6b7cbb60
+16:40:28.108 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/88/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@305fffee
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@162864fb
+16:40:28.111 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/89/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@294bdbbe
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@54591e68
+16:40:28.115 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/90/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@69d01206
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@87503b8
+16:40:28.188 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/91/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@63b4f3b9
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@100ca079
+16:40:28.192 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/92/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6bc0f4e3
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@18c95a12
+16:40:28.195 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/93/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@41296831
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1bf4049b
+16:40:28.200 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/94/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7446d6b4
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1bec4a23
+16:40:28.203 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/95/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7127c4ff
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@56e5102c
+16:40:28.207 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/96/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@7381c367
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@9c6d842
+16:40:28.211 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/97/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@172c59c3
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@932d952
+16:40:28.299 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/98/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@677e5a2c
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@3e76bf18
+16:40:28.305 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/99/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3aa25cf
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2c8e7352
+16:40:28.308 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/100/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@3b28f0a7
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@14f49083
+16:40:28.359 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/1/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@6c55e918
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@7bacd800
+16:40:28.365 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/1/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@17e77540
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@70a3c0ad
+16:40:28.367 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/2/_history/1
+16:40:28.372 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/2/_history/2
+16:40:28.379 [main] INFO  c.u.f.r.s.p.HashMapResourceProviderTest [HashMapResourceProviderTest.java:184] - Received IDs: [Patient/2/_history/2, Patient/2/_history/1, Patient/1/_history/1]
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@5b1f9139
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@45a7621e
+16:40:28.381 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/1/_history/1
+16:40:28.383 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/1/_history/2
+16:40:28.391 [qtp1200877716-91] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor [ExceptionHandlingInterceptor.java:141] - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ResourceGoneException: Resource Patient/1/_history/2 is gone/deleted
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@35da6ec2
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@2e238d4b
+16:40:28.397 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/1/_history/1
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@53e856b8
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@6113c05b
+16:40:28.399 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/2/_history/1
+16:40:28.403 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/2/_history/2
+ 
+
+ Generic Client params
+{}
+ca.uhn.fhir.rest.client.impl.GenericClient$OutcomeResponseHandler@283377e8
+ca.uhn.fhir.rest.client.method.HttpPostClientInvocation@1af85446
+16:40:28.412 [qtp1200877716-92] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/1/_history/1
+16:40:28.414 [qtp1200877716-91] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/1/_history/2
+16:40:28.421 [qtp1200877716-92] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor [ExceptionHandlingInterceptor.java:141] - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException: Resource Patient/1/_history/3 is not known
+16:40:28.432 [qtp1200877716-87] INFO  c.u.f.r.s.p.HashMapResourceProvider [HashMapResourceProvider.java:327] - Storing resource with ID: Patient/ABC/_history/1
+16:40:28.438 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:341] - Stopped ServerConnector@7a46c85c{HTTP/1.1,[http/1.1]}{0.0.0.0:50373}
+16:40:28.439 [main] INFO  o.e.j.server.handler.ContextHandler [ContextHandler.java:1040] - Stopped o.e.j.s.ServletContextHandler@528ddf21{/,null,UNAVAILABLE}
+16:40:28.449 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.rest.server.provider.HashMapResourceProviderTest$MyRestfulServer ca.uhn.fhir.rest.server.provider.HashMapResourceProviderTest.ourRestServer
+16:40:28.450 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static org.eclipse.jetty.server.Server ca.uhn.fhir.rest.server.provider.HashMapResourceProviderTest.ourListenerServer
+16:40:28.450 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.rest.client.api.IGenericClient ca.uhn.fhir.rest.server.provider.HashMapResourceProviderTest.ourClient
+16:40:28.450 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.context.FhirContext ca.uhn.fhir.rest.server.provider.HashMapResourceProviderTest.ourCtx
+16:40:28.450 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.rest.server.provider.HashMapResourceProvider ca.uhn.fhir.rest.server.provider.HashMapResourceProviderTest.myPatientResourceProvider
+16:40:28.450 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static ca.uhn.fhir.rest.server.provider.HashMapResourceProvider ca.uhn.fhir.rest.server.provider.HashMapResourceProviderTest.myObservationResourceProvider
+16:40:28.450 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:70] - Clearing value of field: private static transient boolean[] ca.uhn.fhir.rest.server.provider.HashMapResourceProviderTest.$jacocoData
+16:40:28.450 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:112] - Tests are running in locale: 中文 (台灣)
+16:40:28.451 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:118] - Tests are using UNIX line endings and UTF-8
+16:40:28.451 [main] INFO  ca.uhn.fhir.util.TestUtil [TestUtil.java:125] - Tests are using time zone: GMT+03:30
