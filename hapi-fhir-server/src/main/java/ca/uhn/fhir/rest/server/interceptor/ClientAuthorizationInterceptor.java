@@ -34,11 +34,20 @@ public class ClientAuthorizationInterceptor extends AuthorizationInterceptor {
   @Override
   public List<IAuthRule> buildRuleList(RequestDetails theRequestDetails) {
     String useOauth = "true";
-//    System.out.println("\n\n\n\n\n\n\n Boolean.parseBoolean(useOauth)");
-//    System.out.println(Boolean.parseBoolean(useOauth));
+    System.out.println("\n\n\n\n\n\n\n Boolean.parseBoolean(useOauth)");
+    System.out.println(Boolean.parseBoolean(useOauth));
 //    ourLog.info("\n\n\n 111111111 boolean Parseeeses","testt");
 //    ourLog.info("Request sessioooos parametewrs");
-//    System.out.println(theRequestDetails);
+//    System.out.println("is metadata ?? \n");
+//    System.out.println(theRequestDetails.getCompleteUrl());
+//    System.out.println("http://54.227.173.76:8181/fhir/baseDstu3/metadata");
+//    System.out.println(theRequestDetails.getCompleteUrl().trim().endsWith("baseDstu3/metadata"));
+//    System.out.println(theRequestDetails.getRequestType().toString()== "GET");
+    if(theRequestDetails.getCompleteUrl().trim().endsWith("baseDstu3/metadata") && theRequestDetails.getRequestType().toString()== "GET" ) {
+    	return new RuleBuilder()
+    	          .allowAll()
+    	          .build();
+    }
     if (!Boolean.parseBoolean(useOauth)) {
       return new RuleBuilder()
           .allowAll()
